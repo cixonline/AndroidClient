@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_reflow_text"
+        android:title="@string/pref_reflow_text" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="switch_inline_images"
+        android:title="@string/pref_inline_images" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="switch_thread_headers"
+        android:title="@string/pref_thread_headers" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_threads_default_open"
+        android:title="@string/pref_threads_default_open" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="switch_show_my_messages"
+        android:title="@string/pref_show_my_messages" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="switch_dynamic_type"
+        android:summary="@string/pref_dynamic_type_description"
+        android:title="@string/pref_dynamic_type" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="switch_row_animations"
+        android:title="@string/pref_row_animations" />
+
+</PreferenceScreen>

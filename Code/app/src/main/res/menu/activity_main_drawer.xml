@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mymessages"
+            android:title="My Messages"/>
+        <item
+            android:id="@+id/nav_cix_justjoined"
+            android:title="cix.justjoined" />
+        <item
+            android:id="@+id/nav_cix_support"
+            android:title="cix.support" />
+        <item
+            android:id="@+id/nav_cixnews"
+            android:title="cixnews" />
+        <item
+            android:id="@+id/nav_icuknet"
+            android:title="icuknet" />
+        <item
+            android:id="@+id/nav_sasha_lubetkin"
+            android:title="sasha_lubetkin" />
+    </group>
+</menu>

@@ -1,0 +1,168 @@
+<resources>
+    <string name="app_name">CIX</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="pref_mark_read_older_than_titles">
+        <item>1 day</item>
+        <item>2 days</item>
+        <item>3 days</item>
+        <item>4 days</item>
+        <item>5 days</item>
+        <item>6 days</item>
+        <item>7 days</item>
+        <item>8 days</item>
+        <item>9 days</item>
+        <item>10 days</item>
+        <item>11 days</item>
+        <item>12 days</item>
+        <item>13 days</item>
+        <item>14 days</item>
+        <item>15 days</item>
+        <item>16 days</item>
+        <item>17 days</item>
+        <item>18 days</item>
+        <item>19 days</item>
+        <item>20 days</item>
+        <item>21 days</item>
+        <item>22 days</item>
+        <item>23 days</item>
+        <item>24 days</item>
+        <item>25 days</item>
+        <item>26 days</item>
+        <item>27 days</item>
+        <item>28 days</item>
+        <item>29 days</item>
+        <item>30 days</item>
+    </string-array>
+    <string-array name="pref_mark_read_older_than_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="pref_header_cix_account">CIX Account</string>
+    <string name="pref_header_visual_settings">Visual Settings</string>
+    <string name="pref_header_options">Options</string>
+    <string name="pref_header_advanced_commands">Advanced Commands</string>
+    <string name="pref_header_conference_directory">Conference Directory</string>
+    <string name="pref_header_send_bug_report">Send Bug Report</string>
+    <string name="pref_username">Username</string>
+    <string name="pref_name">Name</string>
+    <string name="pref_email">Email</string>
+    <string name="pref_reflow_text">Reflow Text</string>
+    <string name="pref_inline_images">Inline Images</string>
+    <string name="pref_thread_headers">Thread Headers</string>
+    <string name="pref_threads_default_open">Threads Default Open</string>
+    <string name="pref_show_my_messages">Show My Messages</string>
+    <string name="pref_dynamic_type">Dynamic Type</string>
+    <string name="pref_dynamic_type_description">Dynamic Type lets you set text size in Android Settings / General</string>
+    <string name="pref_row_animations">Row Animations</string>
+    <string name="pref_signature">Signature</string>
+    <string name="pref_automatic_sync">Automatic Sync</string>
+    <string name="pref_auto_upload_outbox">Auto-upload Outbox</string>
+    <string name="pref_my_messages_marked_read">My messages marked read</string>
+    <string name="pref_upload_read_status">Upload Read Status</string>
+    <string name="pref_upload_message_stars">Upload Message Stars</string>
+    <string name="pref_alert_unset_messages">Alert un-sent messages</string>
+    <string name="pref_toolbar_in_message_view">Toolbar in message view</string>
+    <string name="pref_sync_with_cosy">Sync with CoSy</string>
+    <string name="pref_set_download_timestamp">Set download timestamp</string>
+    <string name="pref_purge_old_messages">Purge old messages</string>
+    <string name="pref_compact_database">Compact database</string>
+    <string name="pref_refresh_topic_list">Refresh topic list</string>
+    <string name="pref_sync_with_cosy_summary">Update read status from the underlying CIX system. If you use another OLR such as Ameol then this will mark messages read in iXolr if they have been downloaded by your OLR.</string>
+    <string name="pref_set_download_timestamp_summary">Set the time from which iXolr will download messages at CIX when you next sync.</string>
+    <string name="pref_purge_old_messages_summary">Mark as read the downloaded copy of messages older than this time. Does not affect read status on CIX</string>
+    <string name="pref_compact_database_summary">Compact the database on this device, to save space</string>
+    <string name="pref_refresh_topic_list_summary">Re-fetch the list of all topics your CIX account is joined to. Excludes topics which have had no messages recently.</string>
+    <string name="pref_mark_read_older_than">Mark read older than</string>
+</resources>

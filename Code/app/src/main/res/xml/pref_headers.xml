@@ -1,0 +1,32 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+
+
+    <header
+        android:fragment="com.georgemarklow.cix3.SettingsActivity$CixAccountPreferenceFragment"
+        android:title="@string/pref_header_cix_account" />
+
+    <header
+        android:fragment="com.georgemarklow.cix3.SettingsActivity$VisualSettingsPreferenceFragment"
+        android:title="@string/pref_header_visual_settings" />
+
+    <header
+        android:fragment="com.georgemarklow.cix3.SettingsActivity$OptionsPreferenceFragment"
+        android:title="@string/pref_header_options" />
+
+    <header
+        android:fragment="com.georgemarklow.cix3.SettingsActivity$AdvancedCommandsPreferenceFragment"
+        android:title="@string/pref_header_advanced_commands" />
+
+    <header
+        android:fragment="com.georgemarklow.cix3.SettingsActivity$ConferenceDirectoryPreferenceFragment"
+        android:title="@string/pref_header_conference_directory" />
+
+    <header
+        android:fragment="com.georgemarklow.cix3.SettingsActivity$SendBugReportPreferenceFragment"
+        android:summary="IN CASE OF EMERGENCY"
+        android:title="@string/pref_header_send_bug_report" />
+
+</preference-headers>

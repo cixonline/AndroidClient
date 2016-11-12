@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:inputType="textMultiLine"
+        android:key="text_signature"
+        android:maxLines="10"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_signature" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="switch_automatic_sync"
+        android:title="@string/pref_automatic_sync" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_auto_upload_outbox"
+        android:title="@string/pref_auto_upload_outbox" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_my_messages_marked_read"
+        android:title="@string/pref_my_messages_marked_read" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="switch_upload_read_status"
+        android:title="@string/pref_upload_read_status" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_upload_message_stars"
+        android:title="@string/pref_upload_message_stars" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_alert_unsent_messages"
+        android:title="@string/pref_alert_unset_messages" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_toolbar_in_message_view"
+        android:title="@string/pref_toolbar_in_message_view" />
+
+</PreferenceScreen>
